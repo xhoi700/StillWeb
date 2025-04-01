@@ -1,0 +1,125 @@
+
+.content {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 600px;
+    margin: auto;
+}
+
+
+.first {
+    color: #3cb6af;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.second {
+    color: #a8cc50;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.third {
+    color: #6b7280; 
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+.cnt {
+    display: flex;
+    background: #3cb6af; 
+    color: white;
+    border-radius: 0 0 10px 10px;
+    overflow: hidden;
+}
+
+
+.cnt-left {
+    width: 50%;
+    padding: 20px;
+    background: #2aa69a; 
+}
+
+.cnt-left h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.price small {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.cnt-left p {
+    font-size: 14px;
+}
+
+.button {
+    display: block;
+    background: #d4ea5a; 
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    margin-top: 15px;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #c3d952; 
+}
+
+
+.cnt-right {
+    width: 50%;
+    padding: 20px;
+    background: #3cb6af;
+}
+
+.cnt-right h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.cnt-right ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cnt-right ul li {
+    font-size: 14px;
+    opacity: 0.9;
+    margin-bottom: 5px;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: gray;
+}
+
+footer a {
+    text-decoration: none;
+    color: #3cb6af;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
